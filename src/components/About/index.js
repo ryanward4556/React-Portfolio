@@ -4,16 +4,14 @@ import Footer from "../Footer";
 import "./style.css";
 
 
-function Landing() {
+function About() {
     return (
         <>
-            <h1>Ryan Ward</h1>
-            <div className="center">
-                <Navbar></Navbar>
-            </div>
+            <title>Ryan Ward</title>
+            <Navbar></Navbar>
             <Footer></Footer>
         </>
     )
 }
 
-export default Landing;
+export default About;

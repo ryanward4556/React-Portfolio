@@ -1,17 +1,14 @@
 import React from "react";
-import "./style.css";
 
 function Navbar() {
     return (
         <>
-            <div className="center">
-                <header>Ryan Ward</header>
-                <ul className="navbar-landing">
+            <div>
+                <ul>
                     <li><a href="/about">About</a></li>
-                    <li><a href="/market-news">Portfolio</a></li>
+                    <li><a href="/portfolio">Portfolio</a></li>
                     <li><a href="/contact">Contact</a></li>
-                </ul>
-
+                </ul>               
             </div>
         </>
     )
