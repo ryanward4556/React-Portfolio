@@ -4,7 +4,6 @@ body {
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  text-align: center;
 }
 
 body.light-mode {
@@ -17,8 +16,12 @@ body.dark-mode {
   background-color: #10171d;
   color: #dfdfdf;
 
-  .navbar {
+  .my-navbar, .footer, a.nav-link, a.navbar-brand {
     background-color: #1b2938;
+    color: #dfdfdf;
+  }
+  svg.contact-links {
+    color: #dfdfdf;
   }
 
   .dark-mode-toggle > button {
@@ -29,12 +32,42 @@ body.dark-mode {
   }
 }
 
-.navbar {
+.my-navbar {
   position: fixed;
   top: 0;
   width: 100%;
   display: flex;
   background-color: #95d3ff;
+  color: #333;
+  padding:0;
+}
+
+a.nav-link {
+  padding: 0;
+  margin: 0;
+  color: #333;
+}
+
+a.navbar-brand {
+  margin-right: 3rem;
+  color: #333;
+}
+
+svg.contact-links {
+  margin-right: .10rem;
+  margin-left: .10rem;
+  color: #333;
+}
+
+.footer {
+  float: left;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #95d3ff;
+  height: 2rem;
+  padding-bottom: 3rem;
+  padding-top: 1rem;
 }
 
 .content {

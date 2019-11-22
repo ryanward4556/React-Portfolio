@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../Navbar";
+import NavBar from "../NavBar";
 import Footer from "../Footer";
 import "./style.css";
 
@@ -8,7 +8,7 @@ function About() {
     return (
         <>
             <title>Ryan Ward</title>
-            <Navbar></Navbar>
+            <NavBar></NavBar>
             <Footer></Footer>
         </>
     )

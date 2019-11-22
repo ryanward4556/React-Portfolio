@@ -1,17 +1,30 @@
 import React from "react";
+import { FaBars } from 'react-icons/fa';
 
-function Navbar() {
+
+function NavBar() {
     return (
         <>
-            <div>
-                <ul>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/portfolio">Portfolio</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                </ul>               
-            </div>
+            <nav className="navbar navbar-expand-lg my-navbar">
+                <a className="navbar-brand" href="/">RW</a>
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon">
+                        <FaBars />
+                    </span>
+                </button>
+                <div className="collapse navbar-collapse" id="navbarNav">
+                    <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li className="nav-item">
+                            <a className="nav-link" href="/about">About</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="/portfolio">Portfolio</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </>
     )
 }
 
-export default Navbar;
+export default NavBar;
