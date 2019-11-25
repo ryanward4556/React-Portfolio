@@ -15,7 +15,7 @@ function NavBar() {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link" href="/about">About</a>
+                            <a className="nav-link" href="/about">About Me</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="/portfolio">Portfolio</a>

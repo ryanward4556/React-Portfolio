@@ -1,16 +1,21 @@
 import React from "react";
+import "./style.css";
 import NavBar from "../NavBar";
 import Footer from "../Footer";
-import "./style.css";
+import Zoom from 'react-reveal/Zoom';
 
 
-function About() {
+
+function Portfolio() {
     return (
         <>
             <NavBar></NavBar>
+            <Zoom>
+                <h1>Projects</h1>
+            </Zoom>
             <Footer></Footer>
         </>
     )
 }
 
-export default About;
+export default Portfolio;
