@@ -9,13 +9,15 @@ export default function Footer() {
         <footer className="footer">
             <div className="container-fluid">
                 <div className="row">
-                    <div>
+                    <div className="col-sm-2">
                         <DarkModeToggle></DarkModeToggle>
                     </div>
-                    <div className="contact-links mx-auto">
-                        <a href="https://github.com/ryanward4556" target="_blank" rel="noopener noreferrer"><FaGithub className="contact-links"></FaGithub></a>
-                        <a href="https://www.linkedin.com/in/ryan-ward-b40508118/" target="_blank" rel="noopener noreferrer"><FaLinkedin className="contact-links"></FaLinkedin></a>
-                        <a href="mailto:ryanward4556@gmail.com" target="_blank" rel="noopener noreferrer"><FaEnvelope className="contact-links"></FaEnvelope></a>
+                    <div className="col-sm-8 text-center">
+                        <div className="contact-links">
+                            <a href="https://github.com/ryanward4556" target="_blank" rel="noopener noreferrer"><FaGithub className="contact-links"></FaGithub></a>
+                            <a href="https://www.linkedin.com/in/ryan-ward-b40508118/" target="_blank" rel="noopener noreferrer"><FaLinkedin className="contact-links"></FaLinkedin></a>
+                            <a href="mailto:ryanward4556@gmail.com" target="_blank" rel="noopener noreferrer"><FaEnvelope className="contact-links"></FaEnvelope></a>
+                        </div>
                     </div>
                 </div>
             </div>
