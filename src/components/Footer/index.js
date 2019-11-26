@@ -1,5 +1,4 @@
 import React from "react";
-import DarkModeToggle from "../DarkModeToggle";
 import "./style.css";
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
@@ -9,10 +8,7 @@ export default function Footer() {
         <footer className="footer">
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-sm-2">
-                        <DarkModeToggle></DarkModeToggle>
-                    </div>
-                    <div className="col-sm-8 text-center">
+                    <div className="col-sm-12 text-center">
                         <div className="contact-links">
                             <a href="https://github.com/ryanward4556" target="_blank" rel="noopener noreferrer"><FaGithub className="contact-links"></FaGithub></a>
                             <a href="https://www.linkedin.com/in/ryan-ward-b40508118/" target="_blank" rel="noopener noreferrer"><FaLinkedin className="contact-links"></FaLinkedin></a>

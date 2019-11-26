@@ -2,8 +2,8 @@ import React from "react";
 import "./style.css";
 import NavBar from "../NavBar";
 import Footer from "../Footer";
-import Zoom from 'react-reveal/Zoom';
-
+import { Zoom } from 'react-reveal';
+import ProjectCard from "../ProjectCard";
 
 
 function Portfolio() {
@@ -13,6 +13,8 @@ function Portfolio() {
             <Zoom>
                 <h1>Projects</h1>
             </Zoom>
+            <ProjectCard></ProjectCard>
+
             <Footer></Footer>
         </>
     )

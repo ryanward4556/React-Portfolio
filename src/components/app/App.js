@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Route, Switch } from 'react-router-dom';
+import "animate.css/animate.min.css";
 import Landing from "../Landing";
 import About from "../About";
 import Portfolio from "../Portfolio";
