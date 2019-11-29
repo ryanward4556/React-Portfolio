@@ -1,4 +1,18 @@
-.card {
-    width: 20vw;
-    height: auto;
+.project-card {
+    width: auto;
+    height: 40%;
+    padding: 4rem;
+}
+
+h1 {
+    margin: 2rem;
+    padding: 5rem;
+    display: inline-block;
+    position: relative;
+    top: 10%
+}
+
+.card-link {
+    display: inline;
+    line-height: 1
 }

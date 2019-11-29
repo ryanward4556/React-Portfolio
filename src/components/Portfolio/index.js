@@ -10,11 +10,12 @@ function Portfolio() {
     return (
         <>
             <NavBar></NavBar>
-            <Zoom>
-                <h1>Projects</h1>
-            </Zoom>
+            <div>
+                <Zoom>
+                    <h1>Projects</h1>
+                </Zoom>
+            </div>
             <ProjectCard></ProjectCard>
-
             <Footer></Footer>
         </>
     )
