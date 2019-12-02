@@ -8,7 +8,7 @@ import ProjectCard from "../ProjectCard";
 
 function Portfolio() {
     return (
-        <>
+        <div className="content">
             <NavBar></NavBar>
             <div>
                 <Zoom>
@@ -17,7 +17,7 @@ function Portfolio() {
             </div>
             <ProjectCard></ProjectCard>
             <Footer></Footer>
-        </>
+        </div>
     )
 }
 

@@ -23,7 +23,7 @@ body.dark-mode {
     color: #dfdfdf;
   }
 
-  .dark-mode-toggle > button {
+  .dark-mode-toggle > .toggle-buttons {
     color: #999;
     &:last-child {
       color: lightblue;
@@ -37,19 +37,19 @@ body.dark-mode {
   width: 100%;
   display: flex;
   background-color: #95d3ff;
-  color: #333;
+  color: #1b2938;
   padding:0;
 }
 
 a.nav-link {
   padding: 0;
   margin: 0;
-  color: #333;
+  color: #1b2938;
 }
 
 a.navbar-brand {
   margin-right: 3rem;
-  color: #333;
+  color: #1b2938;
 }
 
 svg.contact-links {
@@ -70,12 +70,7 @@ svg.contact-links {
 }
 
 .content {
-  padding: 20px;
   margin: 0 auto;
-  margin-top: 60px;
-  max-width: 600px;
-  font-size: 20px;
-  line-height: 1.3em;
 
   h1 {
     font-size: 2rem;
@@ -98,30 +93,41 @@ svg.contact-links {
   }
 
   button {
-    color: #006688;
-    background-color: transparent;
+    margin: 0 auto;
+    background-color: #1b2938;
+    color: white;
+    padding: 10px;
     border: none;
-    font-size: 1em;
-    padding: 0;
+    border-radius: 8px;
+  }
+
+  a.navbar-brand, a.nav-link {
+    color: #1b2938;
   }
 }
+
 
 body.dark-mode .content code {
   background-color: #1b2938;
 }
 
-body.dark-mode .content a {
-  color: #ee09;
+
+
+body.dark-mode button {
+  background-color: #95d3ff;
+  color: #333;
+  border: none;
+  border-radius: 8px;
 }
 
-body.dark-mode .content button {
-  color: #ee09;
+body.dark-mode .toggle-buttons {
+  background-color: none;
 }
 
 .dark-mode-toggle {
   display: flex;
   margin: 0 auto;
-  & > button {
+  & > .toggle-buttons {
     font-size: 1.2em;
     background: none;
     border: none;

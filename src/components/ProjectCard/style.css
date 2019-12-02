@@ -14,5 +14,7 @@ h1 {
 
 .card-link {
     display: inline;
-    line-height: 1
+    line-height: 1;
+    display: inline;
+    float: left;
 }
