@@ -7,11 +7,11 @@ import DarkModeToggle from "../DarkModeToggle";
 
 function Landing() {
     return (
-        <>
+        <div>
             <nav className="navbar navbar-expand-lg justify-content-end my-navbar fixed-top">
                 <DarkModeToggle></DarkModeToggle>
             </nav>
-            <div className="container">
+            <div className="container" style={{position: "relative", minHeight: "100vh"}}>
                 <div className="row center-title">
                     <div className="col-sm-12">
                         <Zoom><h1>Ryan Ward</h1></Zoom>
@@ -27,8 +27,8 @@ function Landing() {
                     </div>
                 </div>
             </div>
-            <Footer></Footer>
-        </>
+            <Footer style={{position: "absolute", bottom: "0"}}></Footer>
+        </div>
     )
 }
 
