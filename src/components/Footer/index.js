@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 export default function Footer() {
     return (
-        <footer className="footer position-relative">
+        <footer className="footer sticky-bottom">
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-sm-12 text-center">

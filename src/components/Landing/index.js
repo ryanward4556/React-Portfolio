@@ -11,7 +11,7 @@ function Landing() {
             <nav className="navbar navbar-expand-lg justify-content-end my-navbar fixed-top">
                 <DarkModeToggle></DarkModeToggle>
             </nav>
-            <div className="container" style={{position: "relative", minHeight: "100vh"}}>
+            <div className="container">
                 <div className="row center-title">
                     <div className="col-sm-12">
                         <Zoom><h1>Ryan Ward</h1></Zoom>
