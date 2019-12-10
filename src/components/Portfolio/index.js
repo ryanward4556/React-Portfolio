@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import NavBar from "../NavBar/index";
+import NavBar from "../NavBar";
 import Footer from "../Footer";
 import { Zoom } from 'react-reveal';
 import ProjectCard from "../ProjectCard";
