@@ -20,7 +20,8 @@ function Portfolio() {
                         <h1>Projects</h1>
                     </Zoom>
                 </div>
-                <ProjectCard></ProjectCard>
+                <ProjectCard style={{marginBottom: "2rem"}}></ProjectCard>
+                <div style={{height: "100px"}}></div>
                 <Footer></Footer>
             </div>
         </>

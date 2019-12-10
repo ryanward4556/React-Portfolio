@@ -7,7 +7,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 function ProjectCard() {
 
     return (
-        <div className="container-fluid">
+        <div className="container-fluid clearfix">
             {projectInfo.map(({ id, src, title, motivation, description, techonologies, apis, deployedLink, gitHubLink }) =>
 
                 < ScrollAnimation animateIn='rotateInUpLeft'>
