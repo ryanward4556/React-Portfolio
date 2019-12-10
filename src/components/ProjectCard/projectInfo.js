@@ -1,8 +1,8 @@
-const screenshots = [
+const projectInfo = [
     {
         id: 1,
         src: './screenshots/awi.png',
-        title: 'AWI',
+        title: 'A&W Investments',
         motivation: "Create a full MERN stack application using Authentication for our Final Project",
         description: "A&W Investments is a stock market education and trading platform designed to create a seamless trading experience enabling our portfolio managers to buy / sell stocks using our Large Cap Growth or Large Cap Value strategies.",
         techonologies: "HTML / CSS, Bootstrap, ReactJS, JavaScript, NodeJS / ExpressJS, MongoDB / Mongoose, Passport Local / Bcrypt (Authentication), Axios, React-Router-Dom",
@@ -38,7 +38,7 @@ const screenshots = [
         title: 'Job Trek',
         motivation: "Searching for and tracking which jobs you have interest in, have applied for, or have had interviews for can get very confusing and hard to stay on top of efficiently",
         description: "Job Trek serves as the mothership / homebase to track all of you jobs from various different platforms in one place, allowing you to seamlessly launch your career",
-        techonologies: "HTML / CSS, Bootstrap, jQuery, Sass, bounce.js, Node, Express, Sequelize / MySQL, Passport (Local Authentication), AJAX",
+        techonologies: "HTML / CSS, Bootstrap, jQuery, Sass, bounce.js, NodeJS, Express, Sequelize / MySQL, Passport (Local Authentication), AJAX",
         apis: "Authentic Jobs API",
         deployedLink: "https://http://danryanjess.herokuapp.com/",
         gitHubLink: "https://github.com/ryanward4556/Job-Trek"
@@ -49,7 +49,7 @@ const screenshots = [
         title: 'Author Match',
         motivation: "After reading a book, have you ever wondered if you'd be friends with the author? This homework assignment was used to gain experience using Node and Express.",
         description: "This application will help you find out which famous author your personality most accurately aligns with. Enter your name, a photo of yourself and answer the 10 personality questions to find your best match. Click on the API Friends List to see the yourself added to the friends list after you submit your survey utilizes routing to render the full list of friends on the page (by simulating hard coded made up API data)",
-        techonologies: "JavaScript, Node, Express, path",
+        techonologies: "JavaScript, NodeJS, Express, path",
         apis: "n/a",
         deployedLink: "https://quiet-shore-44266.herokuapp.com/",
         gitHubLink: "https://github.com/ryanward4556/Friend-Finder"
@@ -60,22 +60,22 @@ const screenshots = [
         title: 'Bamazon',
         motivation: "After reading a book, have you ever wondered if you'd be friends with the author? This homework assignment was used to gain experience using Node and Express.", 
         description: "This application will help you find out which famous author your personality most accurately aligns with. Enter your name, a photo of yourself and answer the 10 personality questions to find your best match. Click on the API Friends List to see the yourself added to the friends list after you submit your survey utilizes routing to render the full list of friends on the page (by simulating hard coded made up API data)",
-        techonologies: "JavaScript, Node, Express, path",
+        techonologies: "JavaScript, NodeJS, Express, path",
         apis: "n/a",
-        deployedLink: "https://quiet-shore-44266.herokuapp.com/",
-        gitHubLink: "https://github.com/ryanward4556/Friend-Finder"
+        deployedLink: "https://youtu.be/U7UQwMIsAEA",
+        gitHubLink: "https://github.com/ryanward4556/Bamazon"
     },
     {
         id: 7,
         src: './screenshots/siri.jpg',
         title: 'LIRI Bot',
-        motivation: "Homework assignment to gain experience working in Node and 3 entertainment API's to service your movie, music, and concert needs", 
+        motivation: "Homework assignment to gain experience working in NodeJS and 3 entertainment API's to service your movie, music, and concert needs", 
         description: "This application will take in the following commands: 'spotify-this-song {song name here}' - searches Spotify for that song, 'concert-this {artist name here}' - searches BandsInTown for top upcoming concerts for that artist,'movie-this {movie name here}' - searches OMDB for that movie, 'do-what-it-says' - searches Spotify for whatever is in the random.txt file. Each search displays relevant information for the searched item and is added to thesearches.txt file.",
-        techonologies: "",
-        apis: "",
-        deployedLink: "",
-        gitHubLink: ""
+        techonologies: "JavaScript, NodeJS, Moment.js, Axios",
+        apis: "OMDB API, Spotify API, BandsInTown API",
+        deployedLink: "https://youtu.be/wimQ16VG4zc",
+        gitHubLink: "https://github.com/ryanward4556/LIRI-Bot"
     },
 ];
 
-export default screenshots;
+export default projectInfo;

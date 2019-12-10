@@ -11,14 +11,21 @@ function Landing() {
             <nav className="navbar navbar-expand-lg justify-content-end my-navbar fixed-top">
                 <DarkModeToggle></DarkModeToggle>
             </nav>
-            <Zoom><h1>Ryan Ward</h1></Zoom>
-            <div className="center">
-                <Zoom cascade>
-                    <ul>
-                        <li><a href="/about">About Me</a></li>
-                        <li><a href="/portfolio">Portfolio</a></li>
-                    </ul>
-                </Zoom>
+            <div className="container">
+                <div className="row center-title">
+                    <div className="col-sm-12">
+                        <Zoom><h1>Ryan Ward</h1></Zoom>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="center">
+                        <Zoom cascade>
+                            <ul>
+                                <li><a href="/portfolio">Portfolio</a></li>
+                            </ul>
+                        </Zoom>
+                    </div>
+                </div>
             </div>
             <Footer></Footer>
         </>
