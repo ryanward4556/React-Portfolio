@@ -40,7 +40,7 @@ const projectInfo = [
         description: "Job Trek serves as the mothership / homebase to track all of you jobs from various different platforms in one place, allowing you to seamlessly launch your career",
         techonologies: "HTML / CSS, Bootstrap, jQuery, Sass, bounce.js, NodeJS, Express, Sequelize / MySQL, Passport (Local Authentication), AJAX",
         apis: "Authentic Jobs API",
-        deployedLink: "https://http://danryanjess.herokuapp.com/",
+        deployedLink: "https://danryanjess.herokuapp.com/",
         gitHubLink: "https://github.com/ryanward4556/Job-Trek"
     },
     {
