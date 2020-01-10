@@ -58,9 +58,9 @@ const projectInfo = [
         id: 6,
         src: './screenshots/amazon.jpg',
         title: 'Bamazon',
-        motivation: "After reading a book, have you ever wondered if you'd be friends with the author? This homework assignment was used to gain experience using Node and Express.", 
-        description: "This application will help you find out which famous author your personality most accurately aligns with. Enter your name, a photo of yourself and answer the 10 personality questions to find your best match. Click on the API Friends List to see the yourself added to the friends list after you submit your survey utilizes routing to render the full list of friends on the page (by simulating hard coded made up API data)",
-        techonologies: "JavaScript, NodeJS, Express, path",
+        motivation: "Create a mock retails business' back end inventory and be able to manipulate the data in the MySQL database to mimick customer and manager interactions", 
+        description: "By running node bamazonCustomer.js you will be prompted to purchase a product from the bamazon_db MySql database that I've created. By running node bamazonManager.js you will be prompted to View Products for Sale - Displays table in the command line that displays everything in the MySql database, View Low Inventory - Displays table for all products that have stock less than 5 units, Add to Inventory - Prompts user to add more inventory to a specific product, Add New Product - Prompts user to add new row to the products table. Each search displays relevant information for the searched item and is added to the searches.txt file.",
+        techonologies: "JavaScript, NodeJS, MySQL, Inquirer",
         apis: "n/a",
         deployedLink: "https://youtu.be/U7UQwMIsAEA",
         gitHubLink: "https://github.com/ryanward4556/Bamazon"
